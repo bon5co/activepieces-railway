@@ -26,7 +26,11 @@ ENV AP_ENVIRONMENT=prod \
     AP_TRIGGER_DEFAULT_POLL_INTERVAL=5 \
     AP_WEBHOOK_TIMEOUT_SECONDS=30 \
     AP_SANDBOX_RUN_TIME_SECONDS=600 \
-    AP_SEED_PORT=13000
+    AP_SEED_PORT=13000 \
+    AP_POSTGRES_PORT=5432 \
+    AP_POSTGRES_USERNAME=postgres \
+    AP_POSTGRES_DATABASE=postgres \
+    AP_POSTGRES_USE_SSL=false
 
 COPY ap-admin.cjs /usr/local/bin/ap-admin.cjs
 COPY railway-entrypoint.sh /usr/local/bin/railway-entrypoint.sh
