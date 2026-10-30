@@ -1,5 +1,9 @@
 # activepieces-railway
 
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/activepieces-or-just-updated-zapier-alte?referralCode=Z1xivh&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
+**Deploy on Railway:** [Activepieces template](https://railway.com/deploy/activepieces-or-just-updated-zapier-alte?referralCode=Z1xivh&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
 Wrapper image for deploying [Activepieces](https://github.com/activepieces/activepieces)
 (open-source Zapier/Make alternative) on Railway.
 
